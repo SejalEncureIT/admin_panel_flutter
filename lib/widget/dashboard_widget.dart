@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:second_project/widget/header_widget.dart';
 
 class DashboardWidget extends StatelessWidget {
   const DashboardWidget({super.key});
@@ -11,7 +12,7 @@ class DashboardWidget extends StatelessWidget {
         child: Column(
           children: [
             const SizedBox(height: 18),
-            //const HeaderWidget(),
+            const HeaderWidget(),
             const SizedBox(height: 18),
             //const ActivityDetailsCard(),
             const SizedBox(height: 18),

@@ -1,5 +1,5 @@
 
-import 'package:second_project/model/halth_model.dart';
+import 'package:second_project/model/health_model.dart';
 
 class HealthDetails {
   final healthData = const [

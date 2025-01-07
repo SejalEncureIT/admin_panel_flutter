@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:second_project/widget/dashboard_widget.dart';
 import 'package:second_project/widget/side_menu_widget.dart';
 
 class MainScreen extends StatefulWidget {
@@ -24,7 +25,9 @@ class _MainScreenState extends State<MainScreen> {
             ),
             Expanded(
               flex: 7,
-              child: Container(color: Colors.red),
+              child: SizedBox(
+                child: DashboardWidget()
+              ),
             ),
             Expanded(
               flex: 3,
