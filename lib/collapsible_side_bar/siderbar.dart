@@ -1,9 +1,9 @@
 import 'package:collapsible_sidebar/collapsible_sidebar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:second_project/history_screen.dart';
-import 'package:second_project/home_screen.dart';
-import 'package:second_project/profile_screen.dart';
+import 'package:second_project/collapsible_side_bar/history_screen.dart';
+import 'package:second_project/collapsible_side_bar/home_screen.dart';
+import 'package:second_project/collapsible_side_bar/profile_screen.dart';
 
 class Siderbar extends StatefulWidget {
   const Siderbar({super.key});

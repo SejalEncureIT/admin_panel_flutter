@@ -1,10 +1,10 @@
 
 import 'package:flutter/material.dart';
-import 'package:second_project/screens/main_screen.dart';
-import 'package:second_project/siderbar.dart';
+import 'package:second_project/collapsible_side_bar/siderbar.dart';
+import 'package:second_project/responsive_design/home_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MyApp(),);
 }
 
 class MyApp extends StatelessWidget {
@@ -14,12 +14,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Dashboard',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        primarySwatch: Colors.deepPurple,
+        //colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        //useMaterial3: true,
       ),
-      home: Siderbar(),
+      home: HomePage(),
     );
   }
 }
